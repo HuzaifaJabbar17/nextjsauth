@@ -27,3 +27,54 @@ now we have to set the upstream
 
 now all files are uploaded on git 
 
+now understand the folder structure of nextjs
+we have three root folders node_modules, public, src
+
+in src we have app folder
+to handle an api we have to create an api folder in app 
+
+app ----> api
+
+api folder will contain our backend in simple terms
+in api folder we will have routes 
+
+app ----> api --->login ---->route.ts
+here app,api & login all are folder
+
+to handle page it would be inside app folder
+
+app 
+---->api
+---->contact--->page.ts
+---->login--->page.ts
+
+here app,api,contact,login all are folders and page.ts is a file
+
+api folder will have backend 
+and contact & login page are frontend
+all the folders in app except api will have one file only that is page.tsx
+
+
+api folder is a collection folder 
+now we have many functionalities in our website we create folder for every different entity for example user will login, signUp
+
+the file inside login will be route.ts
+
+always start your project from backend it give you the basic idea
+1.data modelling
+
+
+
+now create an .env file in root folder
+and it will have all the secret information of our project
+
+now data modelling will be done inside our src folder 
+we will create a new folder models
+
+src
+---->app
+---->models
+
+we have to create models
+now we need mongoose to talk to mongodb 
+npm i mongoose
