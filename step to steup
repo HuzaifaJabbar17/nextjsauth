@@ -86,3 +86,8 @@ that nextjs dont know that its connection has been made or not with databases
 connecting first time or its already connected so we have to remember both the cases in nextjs
 
 if model is already created in the database then give us referece of that model otherwise create that model in mongodb
+
+creating dbconfig folder in src
+in dbConfig folder we will have our database connection
+
+here in dbconfig file we have assured that the process.env.MONGO_URI is a string by giving exclimintion mark  process.env.MONGO_URI!
