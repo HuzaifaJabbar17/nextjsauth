@@ -1,0 +1,29 @@
+create a folder in computer 
+note: the folder name should contain all the small letters
+
+now go to the nextjs website and copy the command
+npx create-next-app@latest
+
+now i have created the folder so if i will run the above the command in the terminal then it will 
+create the project inside the folder it means folder inside the folder
+
+so we will copy the command and add . (DOT) 
+like this : npx create-next-app@latest .
+this will create the project inside it.
+
+now i have to push the files in git
+the git were already initialised by the npm 
+so now we have to change the master branch to main changing the existing branch to main
+
+1.	git branch -M main
+
+now we have to set the origin
+
+2. git remote add origin https://github.com/HuzaifaJabbar17/nextjsauth.git
+
+now we have to set the upstream 
+
+3. git push -u origin main
+
+now all files are uploaded on git 
+
