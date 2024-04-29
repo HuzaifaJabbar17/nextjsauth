@@ -78,3 +78,11 @@ src
 we have to create models
 now we need mongoose to talk to mongodb 
 npm i mongoose
+
+isverify and forgotpasswordtoken concept is on 20:00 of the video 2
+
+always remember that NEXTJS IS AN EDGE FRAMEWORK
+that nextjs dont know that its connection has been made or not with databases
+connecting first time or its already connected so we have to remember both the cases in nextjs
+
+if model is already created in the database then give us referece of that model otherwise create that model in mongodb
