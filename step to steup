@@ -91,3 +91,14 @@ creating dbconfig folder in src
 in dbConfig folder we will have our database connection
 
 here in dbconfig file we have assured that the process.env.MONGO_URI is a string by giving exclimintion mark  process.env.MONGO_URI!
+
+we always have to exit the process in catch block while connecting to mongodb
+
+create a helpers folder in src directory
+
+in nodemailer files or mailer.ts 
+we have to run this command after installing nodemailer
+npm i --save-dev @types/nodemailer 
+because we are using typescript we have to types in dev dependencies by runnig the above command
+
+after any object or variable we are defining its datatype ----> : any
