@@ -9,7 +9,7 @@ import bcryptjs from "bcryptjs";
 connect();
 export async function POST(request: NextRequest) {
   try {
-    const reqBody = await request.json(); // the data has come from request
+    const reqBody = await request.json(); // the data has come from request and it has to be await because it takes time
     console.log(reqBody);
     const { username, email, password } = reqBody; //destructuring the request body
 

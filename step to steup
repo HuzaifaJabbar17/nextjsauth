@@ -144,3 +144,9 @@ for html create a new document and give a reference there
 NOTE :reqBody is a promise so we have to wait there so write await before getting reqbody 
 
 always use await in database calls
+
+here we are defining what a user can do 
+signin,login,logout,verifyemail, go to profile
+
+all the folder would be in users folder 
+and the folder will contain route.ts file

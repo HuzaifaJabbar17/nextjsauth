@@ -29,6 +29,8 @@ export const sendEmail = async ({ email, emailType, userId }: any) => {
     //   },
     // });
 
+    // instead of the above code we are using mailtrap code
+
     const user_account = process.env.USER_ACCOUNT;
     const user_password = process.env.USER_PASSWORD;
 
@@ -53,7 +55,7 @@ export const sendEmail = async ({ email, emailType, userId }: any) => {
       here</a>
       to
       ${emailType === "VERIFY" ? "verify your email" : "reset your password"}
-      or copy and paste the link below in your browser.
+      or copy and paste the below link in your browser.
       <br> ${process.env.DOMAIN}/verifyemail?token=${hashedToken}
       </p>`,
     };
