@@ -102,3 +102,43 @@ npm i --save-dev @types/nodemailer
 because we are using typescript we have to types in dev dependencies by runnig the above command
 
 after any object or variable we are defining its datatype ----> : any
+
+NEXTJS biggest problem is folder based routing
+
+IMPORTANT NOTE : NEXTJS IS AN EDGE TIME FRAMEWORK IN EVERY ROUTE WE HAVE TO CHECK WHETHER THE CONNECTION IS ALIVE WITH DATABASE OR NOT
+so every route needs dbconfig file  in every api file
+import { connect } from "@/dbConfig/dbConfig";
+and then the first thing we have to call connect();
+
+to import any file use "@/"
+
+
+to use any route methods we have to do like this 
+example ------->
+export async function POST(request : nextRequest){
+
+}
+
+export async function RESTAPIMETHOD(request:nextRequest){
+
+}
+in this project we not validating the incoming request 
+to hash the password we used bcryptjs 
+and after importing we have to give type of bcrypt file
+npm i --save-dev @types/bcryptjs
+
+nextResponse.json(object,object)
+nextResponse will take object as an arguement
+
+bcrypt include special characters whereas uuid libraray doesnt include special characters 
+
+go to mailtrap to send email
+replace the createTransport function from mailtrap in our code 
+go to email testing --> go to your inbox ---> go to integration -----> choose nodemailer
+copy the code and paste it on your code 
+
+we need to give user and password in .env file
+
+for html create a new document and give a reference there
+
+NOTE :reqBody is a promise so we have to wait there so write await before getting reqbody 
