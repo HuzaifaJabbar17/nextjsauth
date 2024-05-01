@@ -158,3 +158,7 @@ process.env.TOKEN_SECRET! may be it is present or not thats why we put exclimina
 MONGO_URi=mongodb+srv://jabbarhuzaifa123:NVfNK4R7ovTcMcEY@nextauthcluster.pzqv2kk.mongodb.net/auth?retryWrites=true&w=majority&appName=nextauthcluster
 
 added database name in  between of /?
+ 
+
+ we are expecting in verify email route that we will send token in body in json format
+ findbyIdAndUpdate take two aguement 1. on which basis you want to find 2.On what do you want to update it must be an Object
