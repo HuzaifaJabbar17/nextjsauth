@@ -150,3 +150,5 @@ signin,login,logout,verifyemail, go to profile
 
 all the folder would be in users folder 
 and the folder will contain route.ts file
+
+to create a token we need data to create token based on it
