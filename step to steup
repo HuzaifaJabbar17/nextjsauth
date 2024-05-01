@@ -152,3 +152,5 @@ all the folder would be in users folder
 and the folder will contain route.ts file
 
 to create a token we need data to create token based on it
+
+process.env.TOKEN_SECRET! may be it is present or not thats why we put exclimination mark at the the end
