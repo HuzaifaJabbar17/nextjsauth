@@ -154,3 +154,7 @@ and the folder will contain route.ts file
 to create a token we need data to create token based on it
 
 process.env.TOKEN_SECRET! may be it is present or not thats why we put exclimination mark at the the end
+
+MONGO_URi=mongodb+srv://jabbarhuzaifa123:NVfNK4R7ovTcMcEY@nextauthcluster.pzqv2kk.mongodb.net/auth?retryWrites=true&w=majority&appName=nextauthcluster
+
+added database name in  between of /?
